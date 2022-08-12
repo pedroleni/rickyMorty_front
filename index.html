@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./infinitoscroll.js" defer></script>
+  <title>Rick&Morty</title>
+</head>
+
+<header>
+    <div class="portada"><img class="fotoPortada" src ="./assers/portada.jpg" rel=""></div>
+</header>
+
+<nav>
+
+</nav>
+
+<body>
+
+    <div class="seccion1"><img class="fotoseccion" src ="./assers/PERSONAJESnew.png" rel=""></div>
+    <div class="barraBuscadora">
+      <div>
+        <input type="text" id="searchbar" placeholder="Buscame si te atreves...">
+      </div>
+      <div>
+        <button onclick="search()">Buscar</button>
+      </div>
+
+    </div>
+    <div id="characters" class="personajes"></div> 
+    <div class="boton"><button onclick="nextCharacters()"><p>Mas personajes</p></button></div>
+    <div id="request-target"></div>
+    
+   
+</body>
+
+</html>
